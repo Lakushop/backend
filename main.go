@@ -9,7 +9,7 @@ import (
 
 func main() {
 	r := router.Router()
-	// fs := http.FileServer(http.Dir("build"))s
+	// fs := http.FileServer(http.Dir("build"))
 	// http.Handle("/", fs)
 	fmt.Println("Starting server on the port 8080...")
 
