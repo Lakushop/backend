@@ -11,7 +11,7 @@ func main() {
 	r := router.Router()
 	// fs := http.FileServer(http.Dir("build"))
 	// http.Handle("/", fs)
-	fmt.Println("Starting server on the port 8069...")
+	fmt.Println("Starting server on the port 8070...")
 
 	log.Fatal(http.ListenAndServe(":8069", r))
 }
