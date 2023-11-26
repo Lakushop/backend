@@ -70,7 +70,7 @@ func CreateStock(w http.ResponseWriter, r *http.Request) {
 	// format a response object
 	res := response{
 		ID:      insertID,
-		Message: "Stock created successfully",
+		Message: "Item created successfully",
 	}
 
 	// send the response
