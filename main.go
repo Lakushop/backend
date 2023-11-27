@@ -1,10 +1,11 @@
 package main
 
 import (
-	"backend/router"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/lakushop/backend/router"
 )
 
 func main() {

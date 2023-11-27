@@ -1,4 +1,4 @@
-module github.com/Lakushop/backend
+module github.com/lakushop/backend
 
 go 1.21.3
 

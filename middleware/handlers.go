@@ -9,7 +9,7 @@ import (
 	"os"       // used to read the environment variable
 	"strconv"  // package used to covert string into int type
 
-	"backend/models" // models package where Stock schema is defined
+	"github.com/lakushop/backend/models" // models package where Stock schema is defined
 
 	"github.com/gorilla/mux" // used to get the params from the route
 
