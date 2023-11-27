@@ -141,7 +141,7 @@ func UpdateStock(w http.ResponseWriter, r *http.Request) {
 	updatedRows := updateStock(int64(id), stock)
 
 	// format the message string
-	msg := fmt.Sprintf("Stock updated successfully. Total rows/record affected %v", updatedRows)
+	msg := fmt.Sprintf("Stok sudah diperbarui, baris yang terpengaruhi didatabase adalah %v", updatedRows)
 
 	// format the response message
 	res := response{
